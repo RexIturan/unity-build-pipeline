@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - GITHUB_WORKSPACE
+          - unity-build-pipeline
         unityVersion:
           - 2019.4.4f1
         targetPlatform:
