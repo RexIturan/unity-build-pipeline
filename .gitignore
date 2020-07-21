@@ -4,5 +4,5 @@
 *.cache
 *Build
 *build
-*temp
-*Temp
+# *temp
+# *Temp
