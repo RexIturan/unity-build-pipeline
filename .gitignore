@@ -2,3 +2,7 @@
 *.csproj
 *.idea
 *.cache
+*Build
+*build
+*temp
+*Temp
