@@ -6,9 +6,14 @@ public class Rotator : MonoBehaviour
 {
     public float speed;
 
+    float horizontal;
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.up * Time.deltaTime * speed, Space.World);
+        horizontal = Input.GetAxis("Horizontal");
+    }
+
+    void FixedUpdate() {
+        transform.Rotate(Vector3.up * Time.deltaTime * horizontal * speed, Space.World);
     }
 }
